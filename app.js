@@ -11,7 +11,7 @@ class Casino {
             console.log("HackerU Casino wins!")
         }
         else{
-            console.log("Player wins " + betAmount) * (this.timesPlayed + 1)
+            console.log("Player wins " + betAmount * (this.timesPlayed + 1)) 
             
         }
     }
